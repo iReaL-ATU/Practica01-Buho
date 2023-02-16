@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form class="form">
+        <div class="form_container">
+            <div class="form_group">
+                <input type="text" id="name" class="form_input" placeholder=" ">
+                <label for="name" class="form_label">Nombre:</label>
+                <span class="form_line"></span>
+            </div>
+            <div class="form_group">
+                <input type="email" id="email" class="form_input" placeholder=" ">
+                <label for="name" class="form_label">Email:</label>
+                <span class="form_line"></span>
+            </div>
+            <div class="form_group">
+                <input type="text" id="random" class="form_input" placeholder=" " required readonly>
+                <label for="name" class="form_label">Número Random</label>
+                <span class="form_line"></span>
+            </div>
+
+            <input type="submit" id="btn" class="form_submit" value="SEND FEEDBACK" disabled>
+        </div>
+    </form>
+
+    <script src="js/formulario.js"></script>
+</body>
+</html>
